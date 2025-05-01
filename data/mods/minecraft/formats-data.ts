@@ -2,7 +2,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	zombie: {
 		tier: "NFE",
 	},
-	giant: {
+	zombiegiant: {
 		tier: "OU",
 	},
 	husk: {

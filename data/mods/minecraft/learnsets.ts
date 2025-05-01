@@ -10,7 +10,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{generation: 9, level: 1},
 		],
 	},
-	giant: {
+	zombiegiant: {
 		learnset: {
 			jawlock: ["9M"],
 			crunch: ["9M"],
