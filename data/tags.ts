@@ -200,6 +200,18 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "CAP NFE",
 		speciesFilter: species => species.tier === 'CAP NFE',
 	},
+	crafttier: {
+		name: "Craft Tier",
+		speciesFilter: species => species.isNonstandard === 'Craft',
+	},
+	craftuber: {
+		name: "Craft Uber",
+		speciesFilter: species => species.tier === 'Craft Uber',
+	},
+	craftnfe: {
+		name: "Craft NFE",
+		speciesFilter: species => species.tier === 'CAP NFE',
+	},
 	ag: {
 		name: "AG",
 		speciesFilter: species => species.tier === 'AG',
@@ -287,6 +299,10 @@ export const Tags: { [id: IDEntry]: TagData } = {
 	cap: {
 		name: "CAP",
 		speciesFilter: thing => thing.isNonstandard === 'CAP',
+	},
+	craft: {
+		name: "Craft",
+		speciesFilter: thing => thing.isNonstandard === 'Craft',
 	},
 	custom: {
 		name: "Custom",

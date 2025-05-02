@@ -1,4 +1,13 @@
 export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable = {
+	zombie: {
+		tier: "Craft NFE",
+	},
+	zombiegiant: {
+		tier: "Craft OU",
+	},
+	husk: {
+		tier: "Craft OU",
+	},
 	bulbasaur: {
 		tier: "LC",
 	},
