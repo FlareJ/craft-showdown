@@ -14,11 +14,11 @@
         "level": 85,
         "sets": [
             {
-                "role": "Bulky Attacker",
+                "role": "Bulky Setup",
                 "movepool": ["Jaw Lock", "Crunch", "Drain Punch", "Heavy Slam", "Hyper Fang", "Bulk Up"],
                 "abilities": ["Stamina"],
                 "teraTypes": ["Dark", "Fighting", "Steel"]
-            },
+            }
         ]
     },
     "husk": {
@@ -29,12 +29,6 @@
                 "movepool": ["Crunch", "Drain Punch", "Flare Blitz", "Fire Fang", "Hyper Fang", "Bulk Up"],
                 "abilities": ["Strong Jaw", "Stamina"],
                 "teraTypes": ["Dark", "Fighting", "Fire"]
-            },
-            {
-                "role": "Bulky Setup",
-                "movepool": ["Jaw Lock", "Crunch", "Drain Punch", "Flare Blitz", "Fire Fang", "Bulk Up"],
-                "abilities": ["Stamina"],
-                "teraTypes": ["Dark", "Fighting", "Fire"]
             }
         ]
     },
@@ -42,16 +36,61 @@
         "level": 85,
         "sets": [
             {
-                "role": "Wallbreaker",
-                "movepool": ["Crunch", "Drain Punch", "Wave Crash", "Liquidation", "Hyper Fang", "Bulk Up"],
-                "abilities": ["Strong Jaw", "Stamina"],
-                "teraTypes": ["Dark", "Fighting", "Water"]
-            },
             {
                 "role": "Bulky Setup",
                 "movepool": ["Jaw Lock", "Crunch", "Drain Punch", "Wave Crash", "Liquidation", "Bulk Up"],
                 "abilities": ["Stamina"],
                 "teraTypes": ["Dark", "Fighting", "Water"]
+            }
+        ]
+    },
+    "spiderjockey": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["Thousand Arrows", "Bonemerang", "Shadow Bone", "Spirit Shackle", "Leech Life", "Sticky Web"],
+                "abilities": ["Long Reach"],
+                "teraTypes": ["Ground", "Ghost", "Bug"]
+            }
+        ]
+    },
+    "stray": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["Thousand Arrows", "Bonemerang", "Shadow Bone", "Spirit Shackle", "Icicle Crash", "Spikes"],
+                "abilities": ["Long Reach"],
+                "teraTypes": ["Ground", "Ghost", "Ice"]
+            }
+        ]
+    },
+    "bogged": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["Thousand Arrows", "Bonemerang", "Shadow Bone", "Spirit Shackle", "Poison Jab", "Toxic Spikes"],
+                "abilities": ["Long Reach"],
+                "teraTypes": ["Ground", "Ghost", "Poison"]
+            }
+        ]
+    },
+    "chargedcreeper": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["Explosion", "Double-Edge", "Wild Charge", "Flare Blitz", "Flame Charge", "Thunder Wave"],
+                "abilities": ["Reckless"],
+                "teraTypes": ["Normal", "Electric", "Fire"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["Explosion", "Double-Edge", "Wild Charge", "Flare Blitz", "Flame Charge", "Thunder Wave"],
+                "abilities": ["Reckless"],
+                "teraTypes": ["Normal", "Electric", "Fire"]
             }
         ]
     },
@@ -106,29 +145,6 @@
             }
         ]
     },
-    "arbok": {
-        "level": 87,
-        "sets": [
-            {
-                "role": "Fast Support",
-                "movepool": ["Earthquake", "Glare", "Gunk Shot", "Knock Off", "Sucker Punch", "Toxic Spikes"],
-                "abilities": ["Intimidate"],
-                "teraTypes": ["Dark", "Ground"]
-            },
-            {
-                "role": "Setup Sweeper",
-                "movepool": ["Coil", "Earthquake", "Gunk Shot", "Trailblaze"],
-                "abilities": ["Intimidate"],
-                "teraTypes": ["Grass", "Ground"]
-            },
-            {
-                "role": "Fast Bulky Setup",
-                "movepool": ["Coil", "Earthquake", "Gunk Shot", "Sucker Punch"],
-                "abilities": ["Intimidate"],
-                "teraTypes": ["Dark", "Ground"]
-            }
-        ]
-    },
     "oricoriosensu": {
         "level": 85,
         "sets": [
@@ -137,17 +153,6 @@
                 "movepool": ["Hurricane", "Quiver Dance", "Revelation Dance", "Roost"],
                 "abilities": ["Dancer"],
                 "teraTypes": ["Fighting", "Ghost"]
-            }
-        ]
-    },
-    "pecharunt": {
-        "level": 77,
-        "sets": [
-            {
-                "role": "Bulky Attacker",
-                "movepool": ["Malignant Chain", "Nasty Plot", "Parting Shot", "Recover", "Shadow Ball"],
-                "abilities": ["Poison Puppeteer"],
-                "teraTypes": ["Dark"]
             }
         ]
     }

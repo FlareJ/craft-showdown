@@ -4,7 +4,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 9] Minecraft Random Battle",
-		mod: 'minecraft',
+		mod: 'minecraftrandom',
 		team: 'gen9',
 		ruleset: ['Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 	},
