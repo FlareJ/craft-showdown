@@ -3,11 +3,16 @@ export const Formats: FormatList = [
 		section: "Minecraft",
 	},
 	{
+		name: "[Gen 9] Minecraft Random Battle",
+		mod: 'minecraft',
+		team: 'gen9',
+		ruleset: ['Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
+	},
+	{
 		name: "[Gen 9] Minecraft",
 		desc: "Standard singles format with the Minecraft mobs.",
 		mod: 'gen9',
-		ruleset: ['Standard AG', '+Craft', '+Craft NFE'],
-		banlist: ['All Pokemon'],
+		ruleset: ['Standard AG', '-All Pokemon', '+Craft', '+Craft NFE'],
 		unbanlist: ['Arceus', 'Craft', 'Craft NFE'],
 	},
 	{
@@ -28,9 +33,8 @@ export const Formats: FormatList = [
 		name: "[Gen 9] Minecraft Doubles",
 		desc: "Doubles with the Minecraft mobs.",
 		mod: 'gen9',
-		ruleset: ['Standard AG', '+Craft', '+Craft NFE'],
+		ruleset: ['Standard AG', '-All Pokemon', '+Craft', '+Craft NFE'],
 		gameType: 'doubles',
-		banlist: ['All Pokemon'],
 		unbanlist: ['Arceus', 'Craft', 'Craft NFE'],
 	},
 ];

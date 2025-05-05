@@ -171,7 +171,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{generation: 9, level: 1},
 		],
 	},
-	creeper: {
+	chargedcreeper: {
 		learnset: {
 			tackle: ["9L1"],
 			workup: ["9L4"],
