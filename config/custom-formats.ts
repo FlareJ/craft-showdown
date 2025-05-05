@@ -13,21 +13,18 @@ export const Formats: FormatList = [
 		desc: "Standard singles format with the Minecraft mobs.",
 		mod: 'gen9',
 		ruleset: ['Standard AG', '-All Pokemon', '+Craft', '+Craft NFE'],
-		unbanlist: ['Arceus', 'Craft', 'Craft NFE'],
 	},
 	{
 		name: "[Gen 9] Minecraft Ubers",
 		desc: "Singles format with the strongest Minecraft mobs.",
 		mod: 'gen9',
 		ruleset: ['[Gen 9] Minecraft', '+Craft Uber'],
-		unbanlist: ['Craft Uber'],
 	},
 	{
 		name: "[Gen 9] Minecraft NFE",
 		desc: "Singles format with only non-fully-evolved Minecraft mobs.",
 		mod: 'gen9',
 		ruleset: ['[Gen 9] Minecraft', '-Craft'],
-		banlist: ['Craft'],
 	},
 	{
 		name: "[Gen 9] Minecraft Doubles",
@@ -35,6 +32,5 @@ export const Formats: FormatList = [
 		mod: 'gen9',
 		ruleset: ['Standard AG', '-All Pokemon', '+Craft', '+Craft NFE'],
 		gameType: 'doubles',
-		unbanlist: ['Arceus', 'Craft', 'Craft NFE'],
 	},
 ];

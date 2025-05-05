@@ -1,0 +1,154 @@
+{
+    "mooshroom": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Body Slam", "Horn Leech", "Leech Seed", "Spore", "Milk Drink"],
+                "abilities": ["Natural Cure", "Cud Chew"],
+                "teraTypes": ["Normal", "Grass"]
+            }
+        ]
+    },
+    "zombiegiant": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["Jaw Lock", "Crunch", "Drain Punch", "Heavy Slam", "Hyper Fang", "Bulk Up"],
+                "abilities": ["Stamina"],
+                "teraTypes": ["Dark", "Fighting", "Steel"]
+            },
+        ]
+    },
+    "husk": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["Crunch", "Drain Punch", "Flare Blitz", "Fire Fang", "Hyper Fang", "Bulk Up"],
+                "abilities": ["Strong Jaw", "Stamina"],
+                "teraTypes": ["Dark", "Fighting", "Fire"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["Jaw Lock", "Crunch", "Drain Punch", "Flare Blitz", "Fire Fang", "Bulk Up"],
+                "abilities": ["Stamina"],
+                "teraTypes": ["Dark", "Fighting", "Fire"]
+            }
+        ]
+    },
+    "drowned": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["Crunch", "Drain Punch", "Wave Crash", "Liquidation", "Hyper Fang", "Bulk Up"],
+                "abilities": ["Strong Jaw", "Stamina"],
+                "teraTypes": ["Dark", "Fighting", "Water"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["Jaw Lock", "Crunch", "Drain Punch", "Wave Crash", "Liquidation", "Bulk Up"],
+                "abilities": ["Stamina"],
+                "teraTypes": ["Dark", "Fighting", "Water"]
+            }
+        ]
+    },
+    "venusaur": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Giga Drain", "Leech Seed", "Sleep Powder", "Sludge Bomb", "Substitute"],
+                "abilities": ["Chlorophyll", "Overgrow"],
+                "teraTypes": ["Steel", "Water"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["Earth Power", "Energy Ball", "Knock Off", "Sleep Powder", "Sludge Bomb", "Synthesis", "Toxic"],
+                "abilities": ["Chlorophyll", "Overgrow"],
+                "teraTypes": ["Dark", "Steel", "Water"]
+            }
+        ]
+    },
+    "charizard": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["Earthquake", "Flamethrower", "Focus Blast", "Hurricane", "Will-O-Wisp"],
+                "abilities": ["Blaze"],
+                "teraTypes": ["Dragon", "Fire", "Ground"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["Dragon Dance", "Earthquake", "Flare Blitz", "Outrage", "Swords Dance"],
+                "abilities": ["Blaze"],
+                "teraTypes": ["Dragon", "Ground"]
+            }
+        ]
+    },
+    "blastoise": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["Earthquake", "Hydro Pump", "Ice Beam", "Shell Smash"],
+                "abilities": ["Torrent"],
+                "teraTypes": ["Ground", "Steel", "Water"]
+            },
+            {
+                "role": "Tera Blast user",
+                "movepool": ["Hydro Pump", "Ice Beam", "Shell Smash", "Tera Blast"],
+                "abilities": ["Torrent"],
+                "teraTypes": ["Electric", "Grass"]
+            }
+        ]
+    },
+    "arbok": {
+        "level": 87,
+        "sets": [
+            {
+                "role": "Fast Support",
+                "movepool": ["Earthquake", "Glare", "Gunk Shot", "Knock Off", "Sucker Punch", "Toxic Spikes"],
+                "abilities": ["Intimidate"],
+                "teraTypes": ["Dark", "Ground"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["Coil", "Earthquake", "Gunk Shot", "Trailblaze"],
+                "abilities": ["Intimidate"],
+                "teraTypes": ["Grass", "Ground"]
+            },
+            {
+                "role": "Fast Bulky Setup",
+                "movepool": ["Coil", "Earthquake", "Gunk Shot", "Sucker Punch"],
+                "abilities": ["Intimidate"],
+                "teraTypes": ["Dark", "Ground"]
+            }
+        ]
+    },
+    "oricoriosensu": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["Hurricane", "Quiver Dance", "Revelation Dance", "Roost"],
+                "abilities": ["Dancer"],
+                "teraTypes": ["Fighting", "Ghost"]
+            }
+        ]
+    },
+    "pecharunt": {
+        "level": 77,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["Malignant Chain", "Nasty Plot", "Parting Shot", "Recover", "Shadow Ball"],
+                "abilities": ["Poison Puppeteer"],
+                "teraTypes": ["Dark"]
+            }
+        ]
+    }
+}

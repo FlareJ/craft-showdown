@@ -1,4 +1,60 @@
 {
+    "mooshroom": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Body Slam", "Horn Leech", "Leech Seed", "Spore", "Milk Drink"],
+                "abilities": ["Natural Cure", "Cud Chew"],
+                "teraTypes": ["Normal", "Grass"]
+            }
+        ]
+    },
+    "zombiegiant": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["Jaw Lock", "Crunch", "Drain Punch", "Heavy Slam", "Hyper Fang", "Bulk Up"],
+                "abilities": ["Stamina"],
+                "teraTypes": ["Dark", "Fighting", "Steel"]
+            },
+        ]
+    },
+    "husk": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["Crunch", "Drain Punch", "Flare Blitz", "Fire Fang", "Hyper Fang", "Bulk Up"],
+                "abilities": ["Strong Jaw", "Stamina"],
+                "teraTypes": ["Dark", "Fighting", "Fire"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["Jaw Lock", "Crunch", "Drain Punch", "Flare Blitz", "Fire Fang", "Bulk Up"],
+                "abilities": ["Stamina"],
+                "teraTypes": ["Dark", "Fighting", "Fire"]
+            }
+        ]
+    },
+    "drowned": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["Crunch", "Drain Punch", "Wave Crash", "Liquidation", "Hyper Fang", "Bulk Up"],
+                "abilities": ["Strong Jaw", "Stamina"],
+                "teraTypes": ["Dark", "Fighting", "Water"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["Jaw Lock", "Crunch", "Drain Punch", "Wave Crash", "Liquidation", "Bulk Up"],
+                "abilities": ["Stamina"],
+                "teraTypes": ["Dark", "Fighting", "Water"]
+            }
+        ]
+    },
     "venusaur": {
         "level": 84,
         "sets": [
