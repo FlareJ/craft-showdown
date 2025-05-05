@@ -3,10 +3,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Craft NFE",
 	},
 	zombiegiant: {
-		tier: "Craft OU",
+		tier: "Craft",
 	},
 	husk: {
-		tier: "Craft OU",
+		tier: "Craft",
 	},
 	bulbasaur: {
 		tier: "LC",

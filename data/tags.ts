@@ -201,7 +201,7 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		speciesFilter: species => species.tier === 'CAP NFE',
 	},
 	crafttier: {
-		name: "Craft Tier",
+		name: "Craft",
 		speciesFilter: species => species.isNonstandard === 'Craft',
 	},
 	craftuber: {
