@@ -1,4 +1,10 @@
 export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable = {
+	cow: {
+		tier: "Craft NFE",
+	},
+	mooshroom: {
+		tier: "Craft",
+	},
 	zombie: {
 		tier: "Craft NFE",
 	},
@@ -6,6 +12,27 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Craft",
 	},
 	husk: {
+		tier: "Craft",
+	},
+	drowned: {
+		tier: "Craft",
+	},
+	skeleton: {
+		tier: "Craft NFE",
+	},
+	spiderjockey: {
+		tier: "Craft",
+	},
+	stray: {
+		tier: "Craft",
+	},
+	bogged: {
+		tier: "Craft",
+	},
+	creeper: {
+		tier: "Craft NFE",
+	},
+	chargedcreeper: {
 		tier: "Craft",
 	},
 	bulbasaur: {
