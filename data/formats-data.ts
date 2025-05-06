@@ -35,6 +35,27 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	chargedcreeper: {
 		tier: "Craft",
 	},
+	wolf: {
+		tier: "Craft NFE",
+	},
+	armoredwolf: {
+		tier: "Craft",
+	},
+	goat: {
+		tier: "Craft",
+	},
+	irongolem: {
+		tier: "Craft",
+	},
+	pillager: {
+		tier: "Craft NFE",
+	},
+	illusioner: {
+		tier: "Craft",
+	},
+	witherskeleton: {
+		tier: "Craft",
+	},
 	bulbasaur: {
 		tier: "LC",
 	},

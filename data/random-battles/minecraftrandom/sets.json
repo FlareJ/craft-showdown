@@ -1,6 +1,6 @@
 {
     "mooshroom": {
-        "level": 85,
+        "level": 80,
         "sets": [
             {
                 "role": "Bulky Support",
@@ -11,7 +11,7 @@
         ]
     },
     "zombiegiant": {
-        "level": 85,
+        "level": 80,
         "sets": [
             {
                 "role": "Bulky Setup",
@@ -22,7 +22,7 @@
         ]
     },
     "husk": {
-        "level": 85,
+        "level": 80,
         "sets": [
             {
                 "role": "Bulky Attacker",
@@ -33,7 +33,7 @@
         ]
     },
     "drowned": {
-        "level": 85,
+        "level": 80,
         "sets": [
             {
                 "role": "Bulky Setup",
@@ -44,7 +44,7 @@
         ]
     },
     "spiderjockey": {
-        "level": 85,
+        "level": 80,
         "sets": [
             {
                 "role": "Fast Attacker",
@@ -55,7 +55,7 @@
         ]
     },
     "stray": {
-        "level": 85,
+        "level": 80,
         "sets": [
             {
                 "role": "Fast Attacker",
@@ -66,7 +66,7 @@
         ]
     },
     "bogged": {
-        "level": 85,
+        "level": 80,
         "sets": [
             {
                 "role": "Fast Attacker",
@@ -77,7 +77,7 @@
         ]
     },
     "chargedcreeper": {
-        "level": 85,
+        "level": 80,
         "sets": [
             {
                 "role": "Wallbreaker",
@@ -90,6 +90,85 @@
                 "movepool": ["Explosion", "Double-Edge", "Wild Charge", "Flare Blitz", "Flame Charge", "Thunder Wave"],
                 "abilities": ["Reckless"],
                 "teraTypes": ["Normal", "Electric", "Fire"]
+            }
+        ]
+    },
+    "armoredwolf": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["Return", "Rock Slide", "Crunch", "Power Trip", "Hone Claws", "Rock Polish"],
+                "abilities": ["Intimidate", "Solid Rock"],
+                "teraTypes": ["Normal", "Rock", "Dark"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["Return", "Rock Slide", "Crunch", "Power Trip", "Hone Claws", "Rock Polish"],
+                "abilities": ["Intimidate", "Solid Rock"],
+                "teraTypes": ["Normal", "Rock", "Dark"]
+            }
+        ]
+    },
+    "goat": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["Head Charge", "Headbutt", "Megahorn", "Sing", "Screech"],
+                "abilities": ["Immunity"],
+                "teraTypes": ["Normal", "Bug"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["Boomburst", "Snarl", "Sing", "Screech"],
+                "abilities": ["Immunity", "Punk Rock"],
+                "teraTypes": ["Normal", "Dark"]
+            }
+        ]
+    },
+    "irongolem": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["Meteor Mash", "Bullet Punch", "Ice Hammer", "Ice Punch", "Seed Bomb", "Metal Burst", "Autotomize"],
+                "abilities": ["Full Metal Body", "Iron Fist"],
+                "teraTypes": ["Steel", "Ice", "Grass"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["Meteor Mash", "Bullet Punch", "Ice Hammer", "Ice Punch", "Seed Bomb", "Metal Burst", "Autotomize"],
+                "abilities": ["Full Metal Body", "Iron Fist"],
+                "teraTypes": ["Steel", "Ice", "Grass"]
+            }
+        ]
+    },
+    "illusioner": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["Triple Arrows", "Spirit Shackle", "Shadow Sneak", "Double Team", "Meditate"],
+                "abilities": ["Frisk"],
+                "teraTypes": ["Fighting", "Ghost"]
+            }
+        ]
+    },
+    "witherskeleton": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["Shadow Claw", "Cross Poison", "Blaze Kick", "Swords Dance"],
+                "abilities": ["Super Luck"],
+                "teraTypes": ["Ghost", "Poison", "Fire"]
+            },
+            {
+                "role": "Fast Support",
+                "movepool": ["Shadow Bone", "Cross Poison", "Blaze Kick", "Toxic"],
+                "abilities": ["Corrosion"],
+                "teraTypes": ["Ghost", "Poison", "Fire"]
             }
         ]
     }
