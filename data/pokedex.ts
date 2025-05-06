@@ -261,7 +261,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	guardian: {
 		num: -443,
-		name: "guardian",
+		name: "Guardian",
 		types: ["Water", "Steel"],
 		baseStats: { hp: 64, atk: 48, def: 84, spa: 96, spd: 56, spe: 52 },
 		abilities: { 0: "Iron Barbs", 1: "Intimidate" },
@@ -298,7 +298,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	pillager: {
 		num: -468,
-		name: "pillager",
+		name: "Pillager",
 		types: ["Fighting"],
 		baseStats: { hp: 64, atk: 76, def: 56, spa: 52, spd: 76, spe: 76 },
 		abilities: { 0: "Frisk", 1: "Reciever" },
@@ -324,7 +324,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	ravager: {
 		num: -473,
-		name: "ravager",
+		name: "Ravager",
 		types: ["Dragon"],
 		baseStats: { hp: 80, atk: 100, def: 80, spa: 52, spd: 40, spe: 48 },
 		abilities: { 0: "Punk Rock", 1: "Unnerve" },
