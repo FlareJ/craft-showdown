@@ -5,6 +5,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	mooshroom: {
 		tier: "Craft",
 	},
+	squid: {
+		tier: "Craft NFE",
+	},
+	glowsquid: {
+		tier: "Craft",
+	},
 	zombie: {
 		tier: "Craft NFE",
 	},
@@ -44,6 +50,21 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	goat: {
 		tier: "Craft",
 	},
+	silverfish: {
+		tier: "Craft NFE",
+	},
+	redstonebug: {
+		tier: "Craft",
+	},
+	axolotl: {
+		tier: "Craft",
+	},
+	guardian: {
+		tier: "Craft NFE",
+	},
+	elderguardian: {
+		tier: "Craft",
+	},
 	irongolem: {
 		tier: "Craft",
 	},
@@ -53,7 +74,16 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	illusioner: {
 		tier: "Craft",
 	},
+	ravager: {
+		tier: "Craft NFE",
+	},
+	ravagerjockey: {
+		tier: "Craft",
+	},
 	witherskeleton: {
+		tier: "Craft",
+	},
+	enderman: {
 		tier: "Craft",
 	},
 	bulbasaur: {
