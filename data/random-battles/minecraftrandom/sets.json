@@ -36,7 +36,6 @@
         "level": 85,
         "sets": [
             {
-            {
                 "role": "Bulky Setup",
                 "movepool": ["Jaw Lock", "Crunch", "Drain Punch", "Wave Crash", "Liquidation", "Bulk Up"],
                 "abilities": ["Stamina"],
