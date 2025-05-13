@@ -4,13 +4,13 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 9] Minecraft Random Battle",
-		mod: 'minecraftrandom',
+		mod: 'minecraft',
 		team: 'random',
 		ruleset: ['+Past', '-Berserk Gene', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', "Z-Move Clause"],
 	},
 	{
 		name: "[Gen 9] Minecraft Random Double Battle",
-		mod: 'minecraftrandom',
+		mod: 'minecraft',
 		team: 'random',
 		ruleset: ['[Gen 9] Minecraft Random Battle'],
 		gameType: 'doubles',
