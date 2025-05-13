@@ -1,4 +1,10 @@
 export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable = {
+	babysheep: {
+		tier: "Craft NFE",
+	},
+	sheep: {
+		tier: "Craft",
+	},
 	cow: {
 		tier: "Craft NFE",
 	},
@@ -65,6 +71,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	elderguardian: {
 		tier: "Craft",
 	},
+	armadillo: {
+		tier: "Craft",
+	},
 	irongolem: {
 		tier: "Craft",
 	},
@@ -78,6 +87,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Craft NFE",
 	},
 	ravagerjockey: {
+		tier: "Craft",
+	},
+	breeze: {
 		tier: "Craft",
 	},
 	witherskeleton: {

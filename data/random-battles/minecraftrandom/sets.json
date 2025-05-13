@@ -1,4 +1,48 @@
 {
+    "sheep": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Tera Blast user",
+                "movepool": ["Revelation Dance", "Fire Pledge", "Grass Pledge", "Water Pledge", "Wish", "Cotton Guard"],
+                "abilities": ["Multicolor"],
+                "teraTypes": ["Normal", "Fire", "Grass", "Water", "Electric", "Ground", "Flying", "Bug", "Poison", "Rock", "Fighting", "Dark", "Psychic", "Ice", "Ghost", "Steel", "Dragon", "Fairy"]
+            }
+        ]
+    },
+    "sheepfire": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["Revelation Dance", "Fire Pledge", "Grass Pledge", "Water Pledge", "Wish", "Cotton Spore"],
+                "abilities": ["Multicolor"],
+                "teraTypes": ["Fire", "Grass"]
+            }
+        ]
+    },
+    "sheepgrass": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["Revelation Dance", "Fire Pledge", "Grass Pledge", "Water Pledge", "Cotton Spore", "Cotton Guard"],
+                "abilities": ["Multicolor"],
+                "teraTypes": ["Grass", "Water"]
+            }
+        ]
+    },
+    "sheepwater": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["Revelation Dance", "Fire Pledge", "Grass Pledge", "Water Pledge", "Wish", "Cotton Guard"],
+                "abilities": ["Multicolor"],
+                "teraTypes": ["Water", "Fire"]
+            }
+        ]
+    },
     "mooshroom": {
         "level": 80,
         "sets": [
@@ -7,23 +51,6 @@
                 "movepool": ["Body Slam", "Horn Leech", "Leech Seed", "Spore", "Milk Drink"],
                 "abilities": ["Natural Cure", "Cud Chew"],
                 "teraTypes": ["Normal", "Grass"]
-            }
-        ]
-    },
-    "glowsquid": {
-        "level": 80,
-        "sets": [
-            {
-                "role": "Bulky Attacker",
-                "movepool": ["Muddy Water", "Hydro Pump", "Dazzling Gleam", "Parabolic Charge", "Sweet Kiss", "Draining Kiss"],
-                "abilities": ["Unnerve", "Wonder Skin"],
-                "teraTypes": ["Water", "Fairy", "Electric"]
-            },
-            {
-                "role": "Bulky Support",
-                "movepool": ["Muddy Water", "Dazzling Gleam", "Parabolic Charge", "Aqua Ring", "Sweet Kiss"],
-                "abilities": ["Unnerve", "Wonder Skin"],
-                "teraTypes": ["Water", "Fairy", "Electric"]
             }
         ]
     },
@@ -98,13 +125,7 @@
         "sets": [
             {
                 "role": "Wallbreaker",
-                "movepool": ["Explosion", "Double-Edge", "Wild Charge", "Flare Blitz", "Flame Charge", "Thunder Wave"],
-                "abilities": ["Reckless"],
-                "teraTypes": ["Normal", "Electric", "Fire"]
-            },
-            {
-                "role": "Setup Sweeper",
-                "movepool": ["Explosion", "Double-Edge", "Wild Charge", "Flare Blitz", "Flame Charge", "Thunder Wave"],
+                "movepool": ["Explosion", "Double-Edge", "Volt Tackle", "Flare Blitz", "Flame Charge", "Thunder Wave"],
                 "abilities": ["Reckless"],
                 "teraTypes": ["Normal", "Electric", "Fire"]
             }
@@ -113,12 +134,6 @@
     "armoredwolf": {
         "level": 80,
         "sets": [
-            {
-                "role": "Setup Sweeper",
-                "movepool": ["Return", "Rock Slide", "Crunch", "Power Trip", "Hone Claws", "Rock Polish"],
-                "abilities": ["Intimidate", "Solid Rock"],
-                "teraTypes": ["Normal", "Rock", "Dark"]
-            },
             {
                 "role": "Bulky Setup",
                 "movepool": ["Return", "Rock Slide", "Crunch", "Power Trip", "Hone Claws", "Rock Polish"],
@@ -132,9 +147,9 @@
         "sets": [
             {
                 "role": "Bulky Attacker",
-                "movepool": ["Head Charge", "Headbutt", "Megahorn", "Sing", "Screech"],
-                "abilities": ["Immunity"],
-                "teraTypes": ["Normal", "Bug"]
+                "movepool": ["Head Charge", "Headbutt", "Megahorn", "Brutal Swing", "Sing", "Screech"],
+                "abilities": ["Immunity", "Punk Rock"],
+                "teraTypes": ["Normal", "Dark", "Bug"]
             },
             {
                 "role": "Bulky Support",
@@ -178,6 +193,23 @@
             }
         ]
     },
+    "glowsquid": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["Muddy Water", "Hydro Pump", "Dazzling Gleam", "Parabolic Charge", "Sweet Kiss", "Draining Kiss"],
+                "abilities": ["Unnerve", "Wonder Skin"],
+                "teraTypes": ["Water", "Fairy", "Electric"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["Muddy Water", "Dazzling Gleam", "Parabolic Charge", "Aqua Ring", "Sweet Kiss"],
+                "abilities": ["Unnerve", "Wonder Skin"],
+                "teraTypes": ["Water", "Fairy", "Electric"]
+            }
+        ]
+    },
     "elderguardian": {
         "level": 80,
         "sets": [
@@ -195,12 +227,23 @@
             }
         ]
     },
+    "armadillo": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Head Smash", "Double-Edge", "Rapid Spin", "U-Turn", "Stealth Rock"],
+                "abilities": ["Rock Head"],
+                "teraTypes": ["Rock", "Normal", "Bug"]
+            }
+        ]
+    },
     "irongolem": {
         "level": 80,
         "sets": [
             {
                 "role": "Wallbreaker",
-                "movepool": ["Meteor Mash", "Bullet Punch", "Ice Hammer", "Ice Punch", "Seed Bomb", "Metal Burst", "Autotomize"],
+                "movepool": ["Meteor Mash", "Bullet Punch", "Ice Hammer", "Seed Bomb", "Metal Burst"],
                 "abilities": ["Full Metal Body", "Iron Fist"],
                 "teraTypes": ["Steel", "Ice", "Grass"]
             },
@@ -237,6 +280,23 @@
                 "movepool": ["Dragon Claw", "Body Press", "Triple Arrows", "Hyper Voice", "Noble Roar", "Roar"],
                 "abilities": ["Unnerve"],
                 "teraTypes": ["Dragon", "Fighting", "Normal"]
+            }
+        ]
+    },
+    "breeze": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["Air Slash", "Esper Wing", "Tri Attack", "Rapid Spin", "Tailwind"],
+                "abilities": ["Sniper", "Aerilate"],
+                "teraTypes": ["Flying", "Psychic"]
+            },
+            {
+                "role": "Fast Support",
+                "movepool": ["Esper Wing", "Tri Attack", "Rapid Spin", "Tailwind", "Light Screen"],
+                "abilities": ["Aerilate"],
+                "teraTypes": ["Flying", "Psychic"]
             }
         ]
     },

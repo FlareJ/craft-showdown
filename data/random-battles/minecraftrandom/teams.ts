@@ -1174,6 +1174,12 @@ export class RandomTeams {
 			if (species.baseSpecies === 'Arceus') {
 				return species.requiredItems[0];
 			}
+			if (species.baseSpecies === 'Sheep') {
+				return species.requiredItems[0];
+			}
+			if (species.baseSpecies === 'Baby Sheep') {
+				return species.requiredItems[0];
+			}
 			return this.sample(species.requiredItems);
 		}
 		if (role === 'AV Pivot') return 'Assault Vest';

@@ -875,6 +875,21 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 			return [type];
 		},
 	},
+	sheep: {
+		name: 'Sheep',
+		onTypePriority: 1,
+		onType(types, pokemon) {
+			if (pokemon.transformed || pokemon.ability !== 'multicolor' && this.gen >= 8) return types;
+			let type: string | undefined = 'Normal';
+			if (pokemon.ability === 'multicolor') {
+				type = pokemon.getItem().onPlate;
+				if (!type) {
+					type = 'Normal';
+				}
+			}
+			return [type];
+		},
+	},
 	rolloutstorage: {
 		name: 'rolloutstorage',
 		duration: 2,

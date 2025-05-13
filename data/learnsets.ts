@@ -1,4 +1,39 @@
 export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
+	babysheep: {
+		learnset: {
+			tackle: ["9L1"],
+			defensecurl: ["9L4"],
+			vinewhip: ["9L10"],
+			ember: ["9L10"],
+			watergun: ["9L10"],
+			revelationdance: ["9L20"],
+			firepledge: ["9L20"],
+			grasspledge: ["9L20"],
+			waterpledge: ["9L20"],
+			cottonspore: ["9L20"],
+			cottonguard: ["9L20"],
+			protect: ["9M"],
+		},
+		encounters: [
+			{generation: 9, level: 1},
+		],
+	},
+	sheep: {
+		learnset: {
+			tackle: ["9L1"],
+			defensecurl: ["9L4"],
+			vinewhip: ["9L10"],
+			ember: ["9L10"],
+			watergun: ["9L10"],
+			revelationdance: ["9L20"],
+			firepledge: ["9L20"],
+			grasspledge: ["9L20"],
+			waterpledge: ["9L20"],
+			cottonspore: ["9L20"],
+			cottonguard: ["9L20"],
+			protect: ["9M"],
+		},
+	},
 	cow: {
 		learnset: {
 			tackle: ["9L1"],
@@ -202,11 +237,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["9L1"],
 			workup: ["9L4"],
 			takedown: ["9L8"],
-			spark: ["9L12"],
-			selfdestruct: ["9L16"],
+			selfdestruct: ["9L12"],
+			wildcharge: ["9L16"],
 			explosion: ["9L20"],
 			doubleedge: ["9L20"],
-			wildcharge: ["9L20"],
+			volttackle: ["9L20"],
 			flareblitz: ["9L20"],
 			flamecharge: ["9L20"],
 			thunderwave: ["9L20"],
@@ -221,11 +256,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["9L1"],
 			workup: ["9L4"],
 			takedown: ["9L8"],
-			spark: ["9L12"],
-			selfdestruct: ["9L16"],
+			selfdestruct: ["9L12"],
+			wildcharge: ["9L16"],
 			explosion: ["9L20"],
 			doubleedge: ["9L20"],
-			wildcharge: ["9L20"],
+			volttackle: ["9L20"],
 			flareblitz: ["9L20"],
 			flamecharge: ["9L20"],
 			thunderwave: ["9L20"],
@@ -271,7 +306,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset: {
 			tackle: ["9L1"],
 			growl: ["9L4"],
-			round: ["9L8"],
+			brutalswing: ["9L8"],
 			headbutt: ["9L12"],
 			hypervoice: ["9L16"],
 			headcharge: ["9L20"],
@@ -282,6 +317,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			screech: ["9L20"],
 			protect: ["9M"],
 		},
+		encounters: [
+			{generation: 9, level: 1},
+		],
 	},
 	silverfish: {
 		learnset: {
@@ -333,6 +371,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			shedtail: ["9L20"],
 			protect: ["9M"],
 		},
+		encounters: [
+			{generation: 9, level: 1},
+		],
 	},
 	guardian: {
 		learnset: {
@@ -369,6 +410,25 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			protect: ["9M"],
 		},
 	},
+	armadillo: {
+		learnset: {
+			tackle: ["9L1"],
+			defensecurl: ["9L4"],
+			rollout: ["9L8"],
+			takedown: ["9L12"],
+			furycutter: ["9L16"],
+			headsmash: ["9L20"],
+			stoneedge: ["9L20"],
+			doubleedge: ["9L20"],
+			rapidspin: ["9L20"],
+			uturn: ["9L20"],
+			stealthrock: ["9L20"],
+			protect: ["9M"],
+		},
+		encounters: [
+			{generation: 9, level: 1},
+		],
+	},
 	irongolem: {
 		learnset: {
 			pound: ["9L1"],
@@ -384,6 +444,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			autotomize: ["9L20"],
 			protect: ["9M"],
 		},
+		encounters: [
+			{generation: 9, level: 1},
+		],
 	},
 	pillager: {
 		learnset: {
@@ -453,6 +516,25 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			protect: ["9M"],
 		},
 	},
+	breeze: {
+		learnset: {
+			gust: ["9L1"],
+			confusion: ["9L4"],
+			defog: ["9L8"],
+			aircutter: ["9L12"],
+			razorwind: ["9L16"],
+			airslash: ["9L20"],
+			esperwing: ["9L20"],
+			triattack: ["9L20"],
+			rapidspin: ["9L20"],
+			tailwind: ["9L20"],
+			lightscreen: ["9L20"],
+			protect: ["9M"],
+		},
+		encounters: [
+			{generation: 9, level: 1},
+		],
+	},
 	witherskeleton: {
 		learnset: {
 			poisonsting: ["9L1"],
@@ -468,6 +550,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["9L20"],
 			protect: ["9M"],
 		},
+		encounters: [
+			{generation: 9, level: 1},
+		],
 	},
 	enderman: {
 		learnset: {
@@ -484,6 +569,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			teleport: ["9L20"],
 			protect: ["9M"],
 		},
+		encounters: [
+			{generation: 9, level: 1},
+		],
 	},
 	missingno: {
 		learnset: {
