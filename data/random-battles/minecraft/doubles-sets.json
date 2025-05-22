@@ -6,7 +6,7 @@
                 "role": "Tera Blast user",
                 "movepool": ["Revelation Dance", "Fire Pledge", "Grass Pledge", "Water Pledge", "Wish", "Cotton Guard"],
                 "abilities": ["Multicolor"],
-                "teraTypes": ["Normal", "Fire", "Grass", "Water", "Electric", "Ground", "Flying", "Bug", "Poison", "Rock", "Fighting", "Dark", "Psychic", "Ice", "Ghost", "Steel", "Dragon", "Fairy"]
+                "teraTypes": ["Normal", "Electric", "Ground", "Flying", "Bug", "Poison", "Rock", "Fighting", "Dark", "Psychic", "Ice", "Ghost", "Steel", "Dragon", "Fairy"]
             }
         ]
     },
@@ -59,7 +59,7 @@
         "sets": [
             {
                 "role": "Bulky Setup",
-                "movepool": ["Jaw Lock", "Crunch", "Drain Punch", "Heavy Slam", "Hyper Fang", "Bulk Up"],
+                "movepool": ["Jaw Lock", "Crunch", "Drain Punch", "Heavy Slam", "Bulk Up"],
                 "abilities": ["Stamina"],
                 "teraTypes": ["Dark", "Fighting", "Steel"]
             }
@@ -152,7 +152,7 @@
                 "teraTypes": ["Normal", "Dark", "Bug"]
             },
             {
-                "role": "Bulky Support",
+                "role": "Wallbreaker",
                 "movepool": ["Boomburst", "Snarl", "Sing", "Screech"],
                 "abilities": ["Punk Rock"],
                 "teraTypes": ["Normal", "Dark"]
@@ -198,13 +198,7 @@
         "sets": [
             {
                 "role": "Bulky Attacker",
-                "movepool": ["Muddy Water", "Hydro Pump", "Dazzling Gleam", "Parabolic Charge", "Sweet Kiss", "Draining Kiss"],
-                "abilities": ["Unnerve", "Wonder Skin"],
-                "teraTypes": ["Water", "Fairy", "Electric"]
-            },
-            {
-                "role": "Bulky Support",
-                "movepool": ["Muddy Water", "Dazzling Gleam", "Parabolic Charge", "Aqua Ring", "Sweet Kiss"],
+                "movepool": ["Hydro Pump", "Dazzling Gleam", "Parabolic Charge", "Sweet Kiss", "Aqua Ring"],
                 "abilities": ["Unnerve", "Wonder Skin"],
                 "teraTypes": ["Water", "Fairy", "Electric"]
             }
@@ -216,12 +210,6 @@
             {
                 "role": "Bulky Attacker",
                 "movepool": ["Surf", "Flash Cannon", "Thunder", "Charge Beam", "Aqua Ring", "Iron Defense"],
-                "abilities": ["Iron Barbs", "Intimidate"],
-                "teraTypes": ["Water", "Steel", "Electric"]
-            },
-            {
-                "role": "Bulky Support",
-                "movepool": ["Surf", "Flash Cannon", "Thunder", "Rain Dance", "Iron Defense"],
                 "abilities": ["Iron Barbs", "Intimidate"],
                 "teraTypes": ["Water", "Steel", "Electric"]
             }
@@ -243,12 +231,6 @@
         "sets": [
             {
                 "role": "Wallbreaker",
-                "movepool": ["Meteor Mash", "Bullet Punch", "Ice Hammer", "Seed Bomb", "Metal Burst"],
-                "abilities": ["Full Metal Body", "Iron Fist"],
-                "teraTypes": ["Steel", "Ice", "Grass"]
-            },
-            {
-                "role": "Bulky Attacker",
                 "movepool": ["Meteor Mash", "Bullet Punch", "Ice Hammer", "Ice Punch", "Seed Bomb", "Metal Burst", "Autotomize"],
                 "abilities": ["Full Metal Body", "Iron Fist"],
                 "teraTypes": ["Steel", "Ice", "Grass"]
@@ -271,15 +253,9 @@
         "sets": [
             {
                 "role": "Bulky Setup",
-                "movepool": ["Dragon Claw", "Triple Arrows", "Clangorous Soul", "Noble Roar", "Roar"],
+                "movepool": ["Dragon Claw", "Body Press", "Triple Arrows", "Clangorous Soul", "Noble Roar", "Roar"],
                 "abilities": ["Unnerve"],
                 "teraTypes": ["Dragon", "Fighting"]
-            },
-            {
-                "role": "Bulky Attacker",
-                "movepool": ["Dragon Claw", "Body Press", "Triple Arrows", "Hyper Voice", "Noble Roar", "Roar"],
-                "abilities": ["Unnerve"],
-                "teraTypes": ["Dragon", "Fighting", "Normal"]
             }
         ]
     },
