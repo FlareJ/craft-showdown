@@ -1421,6 +1421,12 @@ export class RandomTeams {
 			return (counter.get('Physical') + counter.get('Special') >= 3 && !moves.has('nuzzle')) ? 'Life Orb' : 'Leftovers';
 		}
 		if (role === 'Tera Blast user' && DEFENSIVE_TERA_BLAST_USERS.includes(species.id)) return 'Leftovers';
+		//minecraft additions
+		if (
+			['flamecharge', 'rapidspin', 'trailblaze'].every(m => !moves.has(m)) &&
+			['Fast Attacker', 'Setup Sweeper', 'Tera Blast user', 'Wallbreaker'].some(m => role === (m)) &&
+			(ability === 'Super Luck')) return 'Scope Lens';
+		//back to original data
 		if (
 			['flamecharge', 'rapidspin', 'trailblaze'].every(m => !moves.has(m)) &&
 			['Fast Attacker', 'Setup Sweeper', 'Tera Blast user', 'Wallbreaker'].some(m => role === (m))

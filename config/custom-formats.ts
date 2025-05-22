@@ -19,7 +19,7 @@ export const Formats: FormatList = [
 		name: "[Gen 9] Minecraft",
 		desc: "Standard singles format with the Minecraft mobs.",
 		mod: 'gen9',
-		ruleset: ['Standard AG', '-Berserk Gene', '+Past', '-All Pokemon', '+Craft', '+Craft NFE', "Z-Move Clause"],
+		ruleset: ['Standard AG', '-All Pokemon', '+Past', '-Berserk Gene', '+Craft', '+Craft NFE', "Z-Move Clause"],
 	},
 	{
 		name: "[Gen 9] Minecraft Ubers",
